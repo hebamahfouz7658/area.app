@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 data=pd.read_csv('/content/housing.csv')
 data.head()
-%writefile app.py
+writefile app.py
 st.time
 st.sidebar.title('sidebar')
 st.header("calculating area")
